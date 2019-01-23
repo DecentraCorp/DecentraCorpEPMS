@@ -454,7 +454,7 @@
         "id": 2,
         "nodeType": "ImportDirective",
         "scope": 41,
-        "sourceUnit": 1316,
+        "sourceUnit": 1356,
         "src": "25:67:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -468,10 +468,10 @@
               "id": 3,
               "name": "MintableToken",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 1315,
+              "referencedDeclaration": 1355,
               "src": "681:13:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_MintableToken_$1315",
+                "typeIdentifier": "t_contract$_MintableToken_$1355",
                 "typeString": "contract MintableToken"
               }
             },
@@ -481,12 +481,12 @@
           }
         ],
         "contractDependencies": [
-          1038,
-          1134,
-          1177,
-          1209,
-          1315,
-          1562
+          1078,
+          1174,
+          1217,
+          1249,
+          1355,
+          1602
         ],
         "contractKind": "contract",
         "documentation": "/////////////////////////////////////////////////////////////////////////////////////////\n @title ChaosCoin Contract for the ChaosCasino\n @author DecentraCorp\n @notice this contract is intended to be used as in-game currency for the ChaosCasino\n @dev All function calls are currently implement without side effects\n/////////////////////////////////////////////////////////////////////////////////////////\n @author Christopher Dixon\n @notice This contract is built using the mintable and burnable token contracts from the Open-Zepplin library",
@@ -494,12 +494,12 @@
         "id": 40,
         "linearizedBaseContracts": [
           40,
-          1315,
-          1038,
-          1562,
-          1134,
-          1177,
-          1209
+          1355,
+          1078,
+          1602,
+          1174,
+          1217,
+          1249
         ],
         "name": "ChaosCoin",
         "nodeType": "ContractDefinition",
@@ -655,7 +655,7 @@
                         "name": "balances",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1051,
+                        "referencedDeclaration": 1091,
                         "src": "1022:8:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
@@ -708,7 +708,7 @@
                           "name": "balances",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1051,
+                          "referencedDeclaration": 1091,
                           "src": "1040:8:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
@@ -785,7 +785,7 @@
                       "name": "totalSupply_",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1053,
+                      "referencedDeclaration": 1093,
                       "src": "1070:12:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -811,7 +811,7 @@
                         "name": "totalSupply_",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1053,
+                        "referencedDeclaration": 1093,
                         "src": "1085:12:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -866,7 +866,7 @@
                   "name": "onlyOwner",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 986,
+                  "referencedDeclaration": 1026,
                   "src": "1006:9:0",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -985,7 +985,7 @@
         "id": 2,
         "nodeType": "ImportDirective",
         "scope": 41,
-        "sourceUnit": 1316,
+        "sourceUnit": 1356,
         "src": "25:67:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -999,10 +999,10 @@
               "id": 3,
               "name": "MintableToken",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 1315,
+              "referencedDeclaration": 1355,
               "src": "681:13:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_MintableToken_$1315",
+                "typeIdentifier": "t_contract$_MintableToken_$1355",
                 "typeString": "contract MintableToken"
               }
             },
@@ -1012,12 +1012,12 @@
           }
         ],
         "contractDependencies": [
-          1038,
-          1134,
-          1177,
-          1209,
-          1315,
-          1562
+          1078,
+          1174,
+          1217,
+          1249,
+          1355,
+          1602
         ],
         "contractKind": "contract",
         "documentation": "/////////////////////////////////////////////////////////////////////////////////////////\n @title ChaosCoin Contract for the ChaosCasino\n @author DecentraCorp\n @notice this contract is intended to be used as in-game currency for the ChaosCasino\n @dev All function calls are currently implement without side effects\n/////////////////////////////////////////////////////////////////////////////////////////\n @author Christopher Dixon\n @notice This contract is built using the mintable and burnable token contracts from the Open-Zepplin library",
@@ -1025,12 +1025,12 @@
         "id": 40,
         "linearizedBaseContracts": [
           40,
-          1315,
-          1038,
-          1562,
-          1134,
-          1177,
-          1209
+          1355,
+          1078,
+          1602,
+          1174,
+          1217,
+          1249
         ],
         "name": "ChaosCoin",
         "nodeType": "ContractDefinition",
@@ -1186,7 +1186,7 @@
                         "name": "balances",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1051,
+                        "referencedDeclaration": 1091,
                         "src": "1022:8:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
@@ -1239,7 +1239,7 @@
                           "name": "balances",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1051,
+                          "referencedDeclaration": 1091,
                           "src": "1040:8:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
@@ -1316,7 +1316,7 @@
                       "name": "totalSupply_",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1053,
+                      "referencedDeclaration": 1093,
                       "src": "1070:12:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -1342,7 +1342,7 @@
                         "name": "totalSupply_",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1053,
+                        "referencedDeclaration": 1093,
                         "src": "1085:12:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -1397,7 +1397,7 @@
                   "name": "onlyOwner",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 986,
+                  "referencedDeclaration": 1026,
                   "src": "1006:9:0",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -1714,8 +1714,8 @@
         }
       },
       "links": {},
-      "address": "0x18ef6ed736139c090135b2cae8d8147f0cf90937",
-      "transactionHash": "0x3d5d173081bd2ddf07d545d411af05ef162dfe924cc3736e37487405235f42b7"
+      "address": "0xcffec42deeec44e121a08b2893aec39d2c0b4a2c",
+      "transactionHash": "0xd864e66ad7471dcede1ff53bd56c36fdaae8f7e10cfe1233a8a696446eb54bc8"
     },
     "5777": {
       "events": {
@@ -1839,5 +1839,5 @@
     }
   },
   "schemaVersion": "2.0.1",
-  "updatedAt": "2019-01-17T04:54:16.085Z"
+  "updatedAt": "2019-01-22T05:44:45.728Z"
 }
