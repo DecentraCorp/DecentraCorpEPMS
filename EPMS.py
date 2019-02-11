@@ -1,7 +1,6 @@
 import json
-import time
 from web3 import Web3, HTTPProvider
-import json
+
 
 with open("contracts/CryptoPatentBlockchain.json") as f:
     info_json = json.load(f)
@@ -10,22 +9,22 @@ CPabi = info_json["abi"]
 
 w3 = Web3(Web3.HTTPProvider("http://localhost:8545"))
 #this should connect to the local parity node running the PoA network
-#will probably need two seperate web3 instances, one for each network when building CIB
+#will probably need two seperate web3 instances, one for each network when$
 w3.eth.defaultAccount = w3.eth.accounts[0]
 repAdd = w3.eth.accounts[0]
 
-add = Web3.toChecksumAddress('0x33ab8c5e6eb4a191d29f7c7a39cfc5759d7f5f19')
+add = Web3.toChecksumAddress('0x4c1f94d3be2615446125636af09f81c9589e033e')
 
 CPB = w3.eth.contract(address=add, abi=CPabi)
 
 
+sndr = {'from': repAdd}
 
 def mineUseBlock():
-    return CPB.functions.generateUseBlockWeight().transact()
+    print(repAdd)
+    CPB.functions.generateUseBlockWeight().transact(sndr)
 
 
-while True:
-    mineUseBlock()
 
 
 #**

@@ -1,0 +1,40 @@
+[parity]
+chain = "DCPoA_Genesis.json"
+base_path = "Main"
+public_node = true
+
+
+[network]
+port = 30303
+bootnodes = [
+"enode://cfe86d3e9b9e61f1f4631872d41b2be8b36c4701aa02c2ae9ee70e37a726a8c919a252b74cee9e40b1084a663a43b9590d4c9800c154d6373911bac4c8b0d4cb@71.84.113.57:30305", # Node0
+"enode://63009cafcca138b298f7c890943ecea06106fe1d7742563f5d598c790013b56ac1ac7d455469a4fc81d9cee5e75aa852c9d96b8fc95ed5df8a43762b2d44e777@71.84.113.57:30301", # Node1
+"enode://e4092b81579f42a5ba63b38aff880869dabce941178eba9331fcb1eedae41a53b6a0965045c9ec1ee0ad6a3cb17ddc2f003f86c44c4b81c2e13fb08e63def03d@10.0.0.7:30303",  # Main
+]
+
+
+
+[rpc]
+port = 8545                             # Enable HTTP JSON RPC on the standard port
+interface = "all"
+cors = ["all"]
+hosts = ["all"]
+apis = ["web3", "eth", "net", "parity", "traces", "rpc", "personal", "parity_accounts", "signer", "parity_set"]
+
+[websockets]
+disable = false                         # Enable WS JSON RPC on the standard port
+port = 8546
+interface = "all"
+origins = ["all"]
+apis = ["web3", "eth", "net", "parity", "traces", "rpc", "secretstore"]
+hosts = ["all"]
+
+[account]
+#unlock = ["0x884d47c9bcf7a60aa0913609daa064f3916e5bda"]      # Main account to sign transactions from Remix.
+password = ["chaos.pwd"]
+
+[mining]
+#engine_signer = "0x884d47c9bcf7a60aa0913609daa064f3916e5bda"
+reseal_on_txs = "none"
+force_sealing = true
+
