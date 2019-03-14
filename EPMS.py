@@ -1,3 +1,6 @@
+#!/usr/bin/python3
+# Uses floating inputs on GPIO4, GPIO17, and GPIO22 to generate truly rand$
+# Outputs to GPIO 25 when a new number is done and sends the number to STD$
 import json
 from web3 import Web3, HTTPProvider
 
