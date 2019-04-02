@@ -30,11 +30,11 @@ def mineUseBlock():
 
 while True:
     try:
-        sleep(20)
+        sleep(5)
         print(repAdd)
-        sleep(20)
+        sleep(185)
         mineUseBlock()
-        sleep(20)
+        sleep(180)
     except:
         pass
 
