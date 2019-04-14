@@ -16,7 +16,7 @@ w3 = Web3(Web3.HTTPProvider("http://localhost:8545"))
 w3.eth.defaultAccount = w3.eth.accounts[0]
 repAdd = w3.eth.accounts[0]
 
-add = Web3.toChecksumAddress('0xf6d7db2d60497cc5719de53858e3e98cc2361708')
+add = Web3.toChecksumAddress('0x71b3fAf66baFCdC1bc3d15f74b7e1a4D3c181f35')
 
 CPB = w3.eth.contract(address=add, abi=CPabi)
 
