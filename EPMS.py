@@ -3,7 +3,7 @@
 # Outputs to GPIO 25 when a new number is done and sends the number to STD$
 import json
 from web3 import Web3, HTTPProvider
-from time import sleep
+
 
 with open("contracts/CryptoPatentBlockchain.json") as f:
     info_json = json.load(f)
@@ -16,7 +16,7 @@ w3 = Web3(Web3.HTTPProvider("http://localhost:8545"))
 w3.eth.defaultAccount = w3.eth.accounts[0]
 repAdd = w3.eth.accounts[0]
 
-add = Web3.toChecksumAddress('0x71b3fAf66baFCdC1bc3d15f74b7e1a4D3c181f35')
+add = Web3.toChecksumAddress('0x24e2b4690BDBdA1A7488842c2F3c5cCd306bE617')
 
 CPB = w3.eth.contract(address=add, abi=CPabi)
 
@@ -28,15 +28,7 @@ def mineUseBlock():
     CPB.functions.generateUseBlockWeight().transact(sndr)
 
 
-while True:
-    try:
-        sleep(5)
-        print(repAdd)
-        sleep(185)
-        mineUseBlock()
-        sleep(180)
-    except:
-        pass
+
 
 #**
 #example contract function call
